@@ -60,6 +60,7 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     
+    
 }
 
 .navbar2__title{
@@ -67,7 +68,11 @@ body {
 }
 .navbar2__sec{
     display: flex;
-    width: 100%;
+    
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
     justify-content: space-around;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -88,8 +93,77 @@ body {
 
 .navbar2__sec2{
     display: flex;
-    justify-content: center;
+    gap: 10px;
     border: solid black 1px;
     padding: 10px;
     border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+
+.navbar2__sec2{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.navbar2__sec2__button{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.navbar2__sec2__input{
+    border: none;
+    font-size: 16px;
+    
+}
+
+.main img{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.section1 h3{
+    margin-left: 10px;
+}
+.section1__beach{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.section2 h3{
+    margin-left: 10px;
+}
+.section2__exp{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.section3 h3{
+    margin-left: 10px;
+}
+.section3__dream{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+ 
